@@ -1,15 +1,17 @@
 import 'dart:io';
 void main(){
-    double renda = 6000;
+    double renda = 78000;
     double saldo = 100001;
 
-    if(renda > 1400 && renda < 5000){
-        print('varejo');
-    }else if(renda < 5000 && renda > 30000){
-        print('Vangogh');
-    }else if(renda < 30000 && renda > 60000){
-        print('Select');
-    }else if(renda > 60000 && saldo > 100000){
+    if(renda > 60000 && saldo < 1000000){
         print('Exclusive');
-    };
+    } else if(renda > 30000) {
+        print('Select');
+    } else if(renda > 5000) {
+        print('Vangogh');
+    } else if(renda > 1400) {
+        print('Varejo');
+    } else {
+        print('Nenhuma categoria');
+    }
 }
