@@ -1,6 +1,6 @@
 import 'dart:io';
 void main(){
-    double renda = 78000;
+    double renda = 79000;
     double saldo = 100001;
 
     if(renda > 60000 && saldo < 1000000){
