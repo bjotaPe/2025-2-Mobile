@@ -1,21 +1,17 @@
 import 'dart:io';
-
 void main(){
 
-    List<String?> alunos = [];
-    bool cadastrarOutroAluno = true;
-
-    while(cadastrarOutroAluno){
-        print("Informe o nome do aluno: ");
-        String? nome = stdin.readLineSync();
-
-        alunos.add(nome);
-
-        print('Deseja cadastrar outro aluno? (S / N)');
-        var respostaUsuario = stdin.readLineSync();
-        cadastrarOutroAluno = respostaUsuario == "S";
-
-    };
-
-
+    int idade = 17;
+    // if(idade >= 18)
+    // {
+    //    print('pode entrar na balada');
+    // }
+    // print('fim do programa');
+    
+    if(idade < 18)
+    {
+        print('fim do programa');
+        return;
+    }
+    print('pode entrar na balada');
 }
