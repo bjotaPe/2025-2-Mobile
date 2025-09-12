@@ -6,7 +6,7 @@ void main(){
     if(renda > 60000 && saldo < 1000000){
         print('Exclusive');
     } else if(renda > 30000) {
-        print('Select');
+        print('Select'); 
     } else if(renda > 5000) {
         print('Vangogh');
     } else if(renda > 1400) {
